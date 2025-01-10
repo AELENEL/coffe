@@ -1,0 +1,53 @@
+@media(max-width:850px){
+    .cafe {
+        flex-direction: column-reverse;
+    }
+    .we-white {
+        height: max-content;
+        width: 280px;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 19px;
+        padding-inline: 20px;
+      }
+      .stolb {
+        max-width: 200px;
+      }
+      .we-have {
+        position: absolute;
+        top: -60px;
+        left: 150px;
+      }
+      .make{
+        flex-direction: column;
+      }
+}
+@media(max-width:801px){
+    .header {
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .header nav a {
+        display: none;
+    }
+    .burger {
+        display: block;
+  color: #35c66b;
+    }   
+}
+@media(max-width:466px){
+    button{
+        padding: 10px 10px;
+    }
+    .we-have {
+        left: 130px;
+      }
+}
+@media(max-width:344px){
+    .cafe-block {
+        gap: 20px;
+    }
+    .we-have {
+        left: 90px;
+      }
+}
