@@ -329,10 +329,18 @@ button:hover {
 }
 .event-lines{
   display: flex;
-  justify-content: space-between;
-  padding-inline: 30px;
-flex-wrap: wrap;  
-gap: 20px;
+  flex-direction: column;
+  gap: 20px;
+  margin-block: 50px;
+}
+.line-top{
+  display: flex;
+  gap: 20px;
+}
+.line-bottom {
+  display: flex;
+  gap: 20px;
+  padding-inline: auto;
 }
 .two-coffe{
   background: url(/image/two\ coffe.svg);
@@ -428,4 +436,32 @@ max-width: 300px;
 button{
   max-width: 150px;
 }
+}
+/*! Contacs */ 
+.contac {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contac-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contac-text h1 {
+  width: 100%;
+max-width: 300px;
+}
+.contac-text p {
+  width: 100%;
+  max-width: 400px;
+}
+.contac-text h3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contac-text h3 img  {
+ width: 22px;
+ height: 22px;
 }
