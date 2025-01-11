@@ -226,3 +226,82 @@ button:hover {
   width: 100%;
   max-width: 450px;
 }
+
+/*! Card */
+#our{
+  padding-block: 60px;
+}
+.our-card {
+  display: flex;
+  align-items: center;
+  gap: 104px;
+  padding-block: 60px;
+  max-width: 1000px;
+  scrollbar-width: auto;
+}
+.our-text{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 70px;
+  padding-inline: 80px;
+}
+.our-text h1 {
+  width: 100%;
+  max-width: 400px;
+  line-height: 87.59px;
+}
+.our-text p {
+  line-height: 34.69px;
+  width: 100%;
+  max-width: 400px;
+}
+.box-card {
+  display: flex;
+  align-items: center;
+  gap: 104px;
+  padding-block: 60px;
+  animation: infinite;
+  overflow: scroll ;
+}
+.card {
+  max-width: 300px;
+  width: 100%;
+  border: 1.35px solid #dadada;
+  height: max-content;
+  border-image-slice: 1;
+  border-radius: 30px;
+  padding-block: 50px;
+  padding-inline: 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.bac-card-cofee {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  background: linear-gradient(267.2deg, #237249 3.05%, #35c66b 75.72%);
+  box-shadow: 0px 5.03px 51.53px 0px rgba(0, 0, 0, 0.39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 10px;
+}
+.card p {
+  max-width: 216px;
+}
+.card h2 {
+  padding-block: 10px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.card button {
+  font-size: 17px;
+}

@@ -21,6 +21,10 @@
       .make{
         flex-direction: column;
       }
+      .our-text{
+        flex-direction: column;
+        padding-inline: 20px;
+      }
 }
 @media(max-width:801px){
     .header {
