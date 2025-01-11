@@ -261,8 +261,7 @@ button:hover {
   align-items: center;
   gap: 104px;
   padding-block: 60px;
-  animation: infinite;
-  overflow: scroll ;
+  overflow: scroll;
 }
 .card {
   max-width: 300px;
@@ -304,4 +303,20 @@ button:hover {
 }
 .card button {
   font-size: 17px;
+}
+/*! Event*/
+.event-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.event-text p {
+  width: 100%;
+  line-height: 45.69px;
+  max-width: 447px;
+}
+.event-text h1 {
+  max-width: 400px;
+  width: 100%;
 }
