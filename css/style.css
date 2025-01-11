@@ -305,6 +305,13 @@ button:hover {
   font-size: 17px;
 }
 /*! Event*/
+#event{
+  padding-block: 60px;
+}
+.event{
+  display: flex;
+  flex-direction: column
+}
 .event-text {
   display: flex;
   align-items: center;
@@ -319,4 +326,106 @@ button:hover {
 .event-text h1 {
   max-width: 400px;
   width: 100%;
+}
+.event-lines{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30px;
+flex-wrap: wrap;  
+gap: 20px;
+}
+.two-coffe{
+  background: url(/image/two\ coffe.svg);
+  width: 100%;
+  max-width: 610px;
+  height: 31vh;
+  border-radius: 40px;
+border:none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-block: 40px;
+padding-inline: 40px;
+h2{
+max-width: 250px;
+}
+button{
+  max-width: 150px;
+}
+}
+.kit{
+  background: url(/image/kitchen.svg);
+  width: 100%;
+  max-width: 610px;
+  height: 31vh;
+  border-radius: 40px;
+border:none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-block: 40px;
+padding-inline: 40px;
+h2{
+max-width: 200px;
+}
+button{
+  max-width: 150px;
+}
+}
+.free{
+  background: url(/image/free.svg);
+  width: 100%;
+  max-width: 400px;
+  height: 31vh;
+  border-radius: 40px;
+border:none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-block: 40px;
+padding-inline: 40px;
+h2{
+max-width: 250px;
+}
+button{
+  max-width: 150px;
+}
+}
+.ourinst{
+  background: url(/image/our\ instagram.svg);
+  width: 100%;
+  max-width: 400px;
+  height: 31vh;
+  border-radius: 40px;
+border:none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-block: 40px;
+padding-inline: 40px;
+h2{
+max-width: 250px;
+}
+button{
+  max-width: 150px;
+}
+}
+.where{
+  background: url(/image/where.svg);
+  width: 100%;
+  max-width: 400px;
+  height: 31vh;
+  border-radius: 40px;
+border:none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-block: 40px;
+padding-inline: 40px;
+h2{
+max-width: 300px;
+}
+button{
+  max-width: 150px;
+}
 }

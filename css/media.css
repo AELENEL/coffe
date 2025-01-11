@@ -25,6 +25,12 @@
         flex-direction: column;
         padding-inline: 20px;
       }
+      .event-text {
+        flex-direction: column-reverse;
+      }
+      .event-lines {
+        overflow:scroll;
+      }
 }
 @media(max-width:801px){
     .header {
