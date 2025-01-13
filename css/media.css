@@ -1,4 +1,7 @@
 @media(max-width:850px){
+  .contac{
+    flex-direction: column;
+  }
     .cafe {
         flex-direction: column-reverse;
     }
@@ -44,6 +47,34 @@
         display: block;
   color: #35c66b;
     }   
+}
+@media(max-width:630px){
+  .footer-menu {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer-number {
+    margin-top: 50px;
+  }
+  .coffee,
+  .kitchen,
+  .coffee-free,
+  .instagram,
+  .choose {
+    height: 190px;
+  }
+  .coffee,
+  .kitchen {
+    max-width: 480px;
+  }
+  .event_text {
+    gap: 20px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  #footer {
+    margin-top: 50px;
+  }
 }
 @media(max-width:466px){
     button{
